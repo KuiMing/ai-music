@@ -342,15 +342,19 @@ https://editor.drawthedots.com/
 
 ----
 
-跟 GPT 協作的過程
+跟 ChatGPT 協作的過程
 
 ----
 
-我就像是沒有技術和專業，卻被空降的長官
+我就像是空降的長官
 
 ----
 
-在指導專業的工程師做工程師不擅長的事
+沒有技術和專業
+
+----
+
+指導專業的工程師做工程師不擅長的事
 
 
 ----
@@ -363,7 +367,7 @@ ChatGPT：不可以，因為布拉布拉
 
 ----
 
-我現在我能體會長官的辛苦了，因為我真的什麼都不會= =
+我現在我能體會長官的辛苦了，因為我們真的什麼都不會= =
 
 ----
 
@@ -414,6 +418,8 @@ ChatGPT：不可以，因為布拉布拉
 
 ----
 
+
+
 ## <font color='black'>`MusicGen`</font><!-- .element: class="fragment" data-fragment-index="1" -->
 
 - https://huggingface.co/spaces/facebook/MusicGen<!-- .element: class="fragment" data-fragment-index="2" -->
@@ -423,26 +429,36 @@ ChatGPT：不可以，因為布拉布拉
 - <font color='black'>串接麥克風</font>  <!-- .element: class="fragment" data-fragment-index="5" -->
 - <font color='black'>只有 15 秒</font> <!-- .element: class="fragment" data-fragment-index="6" -->
 
+
 <!-- .slide: data-background="#FFF" -->
 <!-- .slide: data-background="media/musicgen.png" -->
 
 
 ----
 
+
+<!-- .slide: data-background="#FFF" -->
+<!-- .slide: data-background="media/musicgen.png" -->
+
+
+<video data-autoplay src="media/musicgen_only_with_prompt.mp4"></video>
+
+----
+
 ## 付費 AI 音樂平台
 - Soundful
     - Genre x Style
-    - [Christmas](https://my.soundful.com/s/rnb/rnb_wavy/657ce8e5efbfe369b1eaeb9d)
+    - [Example Music](https://my.soundful.com/s/rnb/rnb_wavy/657ce8e5efbfe369b1eaeb9d)
 - Soundraw
     - Genre x Mood x Theme
-    - [Example](https://soundraw.io/edit_music?m=657cdc43630d8e000a386847)
+    - [Example Music](https://soundraw.io/edit_music?m=657cdc43630d8e000a386847)
 - Mubert
     - Genre or Prompt or Image
     - <audio controls src="media/Mubert_DallE_AI_music_Loop.mp3">
 ----
 
-https://music.yating.tw/music<!-- .element: class="fragment" data-fragment-index="1" -->
-
+- https://music.yating.tw/music<!-- .element: class="fragment" data-fragment-index="1" -->
+- 台灣人工智慧實驗室<!-- .element: class="fragment" data-fragment-index="2" -->
 <!-- .slide: data-background="media/AI-Music-Yating.png" -->
 
 ----
