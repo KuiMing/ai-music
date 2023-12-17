@@ -37,7 +37,12 @@
                 <textarea data-template>
                   # 跟著 AI 叮叮噹～
 
+
 陳奎銘 Ben Chen
+
+
+
+<br>
 
 ![](media/Unit.png)
 
@@ -132,17 +137,6 @@
 ### 做音樂之前，先學 ABC
 
 
-                  </textarea>
-                </section>
-              
-                <section data-markdown>
-                  <textarea data-template>
-                    
-
-<!-- .slide: data-background="#FFF" -->
-
-<!-- .slide: data-background-iframe="media/abc.html" -->
-
 
 
                   </textarea>
@@ -154,10 +148,12 @@
 
 ## What is ABC Notation
 
-- 19世紀出現
+- 歷史：
+    - 1970年代：愛爾蘭傳統音樂教學
+    - 1997：Chris Walshaw 修改成標準做法
+    - 2011：2.1版出爐
 - 以A到G的字母記錄音高
 - 以數字紀錄音長
-- 由克里斯·瓦爾莎發明
 
 
                   </textarea>
@@ -168,6 +164,18 @@
                     
 
 
+
+<!-- .slide: data-background="#FFF" -->
+
+<!-- .slide: data-background-iframe="media/abc.html" -->
+
+
+                  </textarea>
+                </section>
+              
+                <section data-markdown>
+                  <textarea data-template>
+                    
 
 <!-- .slide: data-background="#FFF" -->
 
@@ -235,14 +243,14 @@ K: A #調性 Key，A 大調
 | "A"Ec BA | E3 E/-E/ | Ec BA | "D"F4 | "Bm"Fd cB | "E7"G3 e | fe dB | "A"c4 |
 | "A"Ec BA | E3 E/-E/ | Ec BA | "D"F3 F | "Bm"Fd cB | "A"ee ee | "E7"fe dB | "A"A2 z2 |
 |: "A"cc c2 | cc c2 | ce A>B | "A7"c4 | "D"dd d>d | "A"dc cc/c/ |\
-1 "B7"cB Bc | "E7"B2 e2 :|2 \
+1 "B7"cB Bc | "E7"B2 e2 :|2 "E7"ee dB | "A"A4 |]
 
 # "A" 表示 A 和弦
-# E3 代表 Mi 三拍，附點四分音符
-# :| 和 |: - 重複標記。位於段落開頭和結尾，表示該段落應重複演奏。
-# |1` 和 |2 - 標記第一次和第二次演奏的部分
+# E3 代表 Mi 三個八分音符的長度，附點四分音符
+# |: 和 :| - 反覆記號。位於段落開頭和結尾，表示該段落應重複演奏。
+# 1 和 2 - 標記第一次和第二次演奏的部分
 
-"E7"ee dB | "A"A4 |]
+
 ```
 
 
@@ -273,19 +281,74 @@ R: march
 M: 2/4
 L: 1/8
 K: A
-%%MIDI program 25 % 木吉他
+%%MIDI program 25 % 木吉他（鋼弦）
 | "A"Ec BA | E3 E/-E/ | Ec BA | "D"F4 \
-%%MIDI program 19 % 搖滾風琴
+%%MIDI program 19 % 教堂管風琴
 | "Bm"Fd cB | "E7"G3 e | fe dB | "A"c4 |
-%%MIDI program 41 % 小提琴
+%%MIDI program 41 % 中提琴
 | "A"Ec BA | E3 E/-E/ | Ec BA | "D"F3 F \
-%%MIDI program 14 % 木琴
+%%MIDI program 14 % 管鐘
 | "Bm"Fd cB | "A"ee ee | "E7"fe dB | "A"A2 z2 |
-%%MIDI program 75 % 直笛
+%%MIDI program 75 % 排簫
 |: "A"cc c2 | cc c2 | ce A>B | "A7"c4 | "D"dd d>d | "A"dc cc/c/ \
-%%MIDI program 114 % 牛鈴
+%%MIDI program 114 % 鋼鼓
 |1 "B7"cB Bc | "E7"B2 e2 :|2 "E7"ee dB | "A"A4 |]
 ```
+
+
+                  </textarea>
+                </section>
+              
+                <section data-markdown>
+                  <textarea data-template>
+                    
+
+
+<!-- .slide: data-background-iframe="https://zh.wikipedia.org/zh-tw/General_MIDI" -->
+
+
+
+
+                  </textarea>
+                </section>
+              
+                <section data-markdown>
+                  <textarea data-template>
+                    
+
+### MIDI
+
+- Musical Instrument Digital Interface
+- 技術標準，用於連接各種電子樂器、電腦和其他相關音訊設備。
+- 首次發布：1981 年
+- 最多支援 16 Channels (樂器)
+- 包括音高、時間和音量
+
+
+                  </textarea>
+                </section>
+              
+                <section data-markdown>
+                  <textarea data-template>
+                    
+
+### abcjs quick editor
+
+https://editor.drawthedots.com/
+
+
+
+                  </textarea>
+                </section>
+              
+                <section data-markdown>
+                  <textarea data-template>
+                    
+
+
+<!-- .slide: data-background="#FFF" -->
+
+<!-- .slide: data-background-iframe="https://editor.drawthedots.com/" -->
 
 
                   </textarea>
@@ -381,7 +444,7 @@ K: A
                   <textarea data-template>
                     
 
-### ChatGPT
+### ChatGPT- GPT-4
 
 先無腦問一波
 
@@ -534,6 +597,7 @@ K: A
 ### 教 ChatGPT 樂理
 
 - 解釋什麼叫做八分音符 
+![](media/eighth_note.png)
 - 要求每個小節要滿拍
 
 
@@ -548,7 +612,8 @@ K: A
 ### 我被教會的事情
 
 - 大調聽起來通常比較開朗輕快
-- 花調和多聲部
+- 花調 ![](media/grace_note.png)
+- 多聲部
 
 
                   </textarea>
@@ -648,15 +713,14 @@ ChatGPT：不可以，因為布拉布拉
 
 ### 快速讓 ChatGPT 產出音樂的方法
 
-- 找到喜歡的曲子
-    - https://abcnotation.com/
+- 找到喜歡的曲子：https://abcnotation.com/
 - Prompt：
 > 這是ABC 譜，請幫我改編成變奏版本
 - 再依樂理，要求 ChatGPT 調整
     - 節奏快慢
     - 改變調性
     - 符合樂理
-    - 增加打擊樂器
+    - 增加樂器
 
 
                   </textarea>
@@ -669,6 +733,18 @@ ChatGPT：不可以，因為布拉布拉
 ### 快速讓 ChatGPT 產出音樂的方法
 
 ![](media/ChatGPT_Variation.png)
+
+
+                  </textarea>
+                </section>
+              
+                <section data-markdown>
+                  <textarea data-template>
+                    
+
+### 快速讓 ChatGPT 產出音樂的方法
+
+範例：Jingle Bells Rock Variation
 
 
                   </textarea>
@@ -748,13 +824,13 @@ ChatGPT：不可以，因為布拉布拉
 ## 付費 AI 音樂平台
 - Soundful
     - Genre x Style
-    - https://my.soundful.com/s/rnb/rnb_wavy/657ce8e5efbfe369b1eaeb9d
+    - [Christmas](https://my.soundful.com/s/rnb/rnb_wavy/657ce8e5efbfe369b1eaeb9d)
 - Soundraw
     - Genre x Mood x Theme
-    - https://soundraw.io/edit_music?m=657cdc43630d8e000a386847
+    - [Example](https://soundraw.io/edit_music?m=657cdc43630d8e000a386847)
 - Mubert
     - Genre or Prompt or Image
-
+    - <audio controls src="media/Mubert_DallE_AI_music_Loop.mp3">
 
                   </textarea>
                 </section>
@@ -785,10 +861,22 @@ https://music.yating.tw/music<!-- .element: class="fragment" data-fragment-index
           
         
           
-            
-              <section data-markdown>
-                <textarea data-template>
-                  
+            <section>
+              
+                <section data-markdown>
+                  <textarea data-template>
+                    
+
+<!-- .slide: data-background-iframe="https://www.onelab.tw/Partner.html" -->
+
+
+
+                  </textarea>
+                </section>
+              
+                <section data-markdown>
+                  <textarea data-template>
+                    
 
 ## 徵才
 
@@ -800,9 +888,10 @@ https://music.yating.tw/music<!-- .element: class="fragment" data-fragment-index
 
 
 
-                </textarea>
-              </section>
-            
+                  </textarea>
+                </section>
+              
+            </section>
           
         
           
@@ -811,7 +900,11 @@ https://music.yating.tw/music<!-- .element: class="fragment" data-fragment-index
                 <textarea data-template>
                   
 
-# 投影片
+### 投影片
+
+https://reurl.cc/4j5ozj
+
+![](media/QR_Slides.png)
 
 
                 </textarea>
@@ -846,7 +939,15 @@ https://music.yating.tw/music<!-- .element: class="fragment" data-fragment-index
                   <textarea data-template>
                     
 
+聆聽宇宙的聲音？
 
+
+                  </textarea>
+                </section>
+              
+                <section data-markdown>
+                  <textarea data-template>
+                    
                   </textarea>
                 </section>
               
