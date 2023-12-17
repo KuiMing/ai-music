@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joy to the World - ABC Notation</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #paper {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="paper">ABC</div>
+    </div>
+    <script src="https://img1.ccgxk.com/ccgxk-oss/js/abc.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var abc = `
+X:1
+T:Simple Christmas Melody
+M:4/4
+L:1/4
+K:C
+G4 | E4 | D2E2 | F4 | E4 |
+C4 | D2E2 | G4 | A4 | B4 |
+c4 | B4 | A4 | G4 | F4 |
+E4 | D2E2 | C4 | G4 | C4 |
+
+
+`;
+
+        function load() {
+            ABCJS.renderAbc("paper", abc);
+        }
+        load();
+    </script>
+
+</body>
+</html>
