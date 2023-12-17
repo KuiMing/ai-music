@@ -399,8 +399,28 @@ https://music.yating.tw/music<!-- .element: class="fragment" data-fragment-index
 
 <!-- .slide: data-background-iframe="https://wall.sli.do/event/945jXAM2FrJxmnCn6svTxs?section=c014bbfe-2381-4e97-9000-04ebcf75e6e5" -->
 
+---
+
+## 徵才
+
+|   Data 人才趕快來  |     直接跟 Ben 聯絡      |
+|:-----------------:|:-----------------------:|
+| ![](media/QR_OnLab.png) | ![](media/QR_Facebook.png) |
+|<font size=5>https://www.onelab.tw/Partner.html</font> | <font size=5>benjamin0901@gmail.com</font> |
+
 
 
 ---
 
+# 投影片
+
+---
+
+# `Thank You`
+
+----
+
 試著改編 ChatGPT 產生的譜會發生什麼事？
+
+----
+
