@@ -480,6 +480,12 @@ ChatGPT：不可以，因為布拉布拉
 |<font size=5>https://www.onelab.tw/Partner.html</font> | <font size=5>benjamin0901@gmail.com</font> |
 
 
+---
+
+## 美國資料中心問卷
+
+https://forms.office.com/g/16NwrAtXcp
+![](media/QR_AIT.png)
 
 ---
 
@@ -495,6 +501,10 @@ https://reurl.cc/4j5ozj
 
 ----
 
+# Q&A
+
+----
+
 試著改編 ChatGPT 產生的譜會發生什麼事？
 
 ----
@@ -502,3 +512,5 @@ https://reurl.cc/4j5ozj
 聆聽宇宙的聲音？
 
 ----
+
+改成 GPT-3.5 也可以嗎？
